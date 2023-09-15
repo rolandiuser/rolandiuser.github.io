@@ -1,27 +1,24 @@
 body, ul {
-    margin: 0;
-    padding: 0;
-}
-
-/* Stijl voor de navigatiebalk */
-.navbar {
-    background-color: #333; /* Achtergrondkleur van de navigatiebalk */
-}
-
-/* Stijl voor de lijst met navigatie-items */
-.nav-list {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-/* Stijl voor elk navigatie-item */
-.nav-item {
-    display: inline; /* Plaats de items naast elkaar */
-    margin-right: 20px; /* Ruimte tussen de items */
+li {
+  float: left;
 }
 
-/* Stijl voor de koppelingen in de navigatie-items */
-.nav-item a {
-    text-decoration: none; /* Verwijder onderstreping
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
 }
